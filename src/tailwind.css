@@ -2,7 +2,7 @@
 @tailwind components;
 
 .my-bkg {
-    @apply bg-black
+    @apply bg-blue-300
 }
 
 @tailwind utilities;
