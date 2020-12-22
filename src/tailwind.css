@@ -2,7 +2,11 @@
 @tailwind components;
 
 .my-bkg {
-    @apply bg-blue-300
+    @apply bg-blue-300 text-white
+}
+
+.list-menu {
+    @apply border-b-2 border-t-2 hover:bg-blue-300 p-2 cursor-pointer
 }
 
 @tailwind utilities;
