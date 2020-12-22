@@ -21,6 +21,20 @@
         </ul>
 
     </nav>
+
+    <nav>
+        <h1>Earls</h1>
+        <p>Menu</p>
+        <p>Locations</p>
+        <p>Gift Cards</p>
+
+
+
+
+
+
+
+    </nav>
     
     <!--main body -->
     <div class="my-bkg">
@@ -39,18 +53,26 @@
     </div>
 
 
-    <div class="bg-black fixed top-0 left-0 right-0 bottom-0 opacity-40" id="form-modal">
-        <p> Book Your table now</p>
-        <hr>
-        <input type="text" name="amount-of-guest" id="amountofGuest">
-        <select name="food-type" id="foodType">
-            <option value="Beef">Beef</option>
-            <option value="Fish">Fish</option>
-            <option value="Vegitatian">Vegitatian</option>
-        </select>
-        <input type="submit" value="">
-    </div>
+    <div class="bg-black fixed top-0 left-0 right-0 bottom-0 opacity-70 hidden" id="form-modal">
+        
+        <div class="p-4 bg-white w-1/3 top-1/3 right-1/3 absolute shadow-lg">
+     
     
+
+                <p class="text-2xl mb-4"> Book Your table now</p>
+                <span class=""></span>
+                
+                <hr>
+                <input type="text" name="amount-of-guest" id="amtofGuest">
+                <select name="food-type" id="foodType">
+                    <option value="Beef">Beef</option>
+                    <option value="Fish">Fish</option>
+                    <option value="Vegitatian">Vegitatian</option>
+                </select>
+                <input type="submit" value="Book A Table Now" class="bg-green-100 text-black px-2 py-3 w-full">
+        
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
