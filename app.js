@@ -1,4 +1,4 @@
-const tableMenu = document.getElementById("book-table")
+const tableMenu = document.getElementById("find-menu")
 
 tableMenu.addEventListener('click', function(){
     // .show-list
