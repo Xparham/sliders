@@ -22,28 +22,31 @@
 
     </nav>
 
-    <nav class="flex">
-        <h1 class="text-4xl text-blue-800 font-bold">Earls</h1>
-        <p>Menu</p>
-        <p>Locations</p>
-        <p>Gift Cards</p>
-        <div>
-        <input type="text" name="location-bar" id="barType">
-                <select name="location-type" id="locationType">
-                    <option value="Set Your Location">Set Your Location</option>
-               </select>
-        
-        
-        
+    <nav class="flex justify-between px-8">
+        <div class="flex space-x-32 items-center">
+            <h1 class="text-4xl text-blue-800 font-bold">Earls</h1>
+            <p>Menu</p>
+            <p>Locations</p>
+            <p>Gift Cards</p>
         </div>
-        <button>
-            Order Online
-        </button>
-            Get Delivery
-        <button>
-            Book a Table
-        </button>
-
+        
+        <div class="flex items-center space-x-32">
+            <input type="text" name="location-bar" id="barType">
+                    <select name="location-type" id="locationType">
+                        <option value="Set Your Location">Set Your Location</option>
+                </select>
+        
+        
+        
+        
+            <button>
+                Order Online
+            </button>
+                Get Delivery
+            <button>
+                Book a Table
+            </button>
+        </div>
     </nav>
     
     <!--main body -->
@@ -109,7 +112,7 @@
         </div>
     </div>
 
-    <div class="flex pl-16 justify-between pr-16 pt-32">
+    <div class="flex pl-16 justify-between pr-16 pt-32 pb-20">
         <div class="flex flex-col items-left justify-center space-y-8">
             <p>FROM THE BLOG</p>
             <h1 class="text-7xl">Earls<br> Updates</h1>
@@ -139,9 +142,9 @@
     
     </div>
 
-    <button class="cursor-pointer hover:bg-gray-800 bg-white text-white bg-blue-800 p-4 font-bold text-center">More on the Blog</button>
+    <button class="ml-96 cursor-pointer hover:bg-gray-800 bg-white text-white bg-blue-800 p-4 font-bold">More on the Blog</button>
 
-    <div class="flex justify-between pt-48 px-16">
+    <div class="flex justify-between pt-48 py-4 px-16">
         <H1 class="text-4xl text-blue-800 font-bold">Earls</H1>
         <div class="flex space-between space-x-6"> 
             <img class="w-6 h-6" src="img/instagram.jpg" alt="">
