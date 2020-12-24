@@ -10,7 +10,9 @@
 }
 
 .show-list {
-    @apply transform translate-x-64;
+    @apply transform duration-200 ease-in-out translate-x-64;
 }
+
+
 
 @tailwind utilities;
