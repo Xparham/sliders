@@ -9,9 +9,15 @@ tableMenu.addEventListener('click', function(){
     // console.log(document.body.classList)
 })
 
-formModal.addEventListener('click', function(){
+// formModal.addEventListener('click', function(){
 
 
+
+
+// })
+
+bookTablebtn.addEventListener('click', function(){
+    formModal.classList.remove('hidden')
 
 
 })
