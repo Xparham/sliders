@@ -222,16 +222,16 @@
     </div>
 
 
-    <div class="bg-black fixed top-0 left-0 right-0 bottom-0 opacity-70 " id="form-modal">
+    <div class="bg-black fixed top-0 left-0 right-0 bottom-0 opacity-70" id="form-modal">
         
         <div class="p-4 bg-white w-1/3 top-1/3 right-1/3 absolute shadow-lg">
      
-    
+            <div class="flex justify-between items-center ">
 
                 <p class="text-2xl mb-4"> Book Your table now</p>
-                <span class="far fa-times-circle"></span>
-                
-                <hr>
+                <span class="far fa-times-circle cursor-pointer" id="closeModal"></span>
+            </div>    
+            <hr>
                 <input type="text" name="amount-of-guest" id="amtofGuest">
                 <select name="food-type" id="foodType">
                     <option value="Beef">Beef</option>
@@ -239,7 +239,7 @@
                     <option value="Vegitatian">Vegitatian</option>
                 </select>
                 <input type="submit" value="Book A Table Now" class="bg-green-100 text-black px-2 py-3 w-full">
-        
+           
         </div>
     </div>
     <script src="app.js"></script>
