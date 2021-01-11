@@ -1,4 +1,5 @@
 const tableMenu = document.getElementById("find-menu")
+const formModal = document.getElementById("form-modal")
 
 tableMenu.addEventListener('click', function(){
     // .show-list
