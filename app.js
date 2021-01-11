@@ -7,3 +7,10 @@ tableMenu.addEventListener('click', function(){
     // tableMenu.classList.add('some-random-class')
     // console.log(document.body.classList)
 })
+
+formModal.addEventListener('click', function(){
+
+
+
+
+})
