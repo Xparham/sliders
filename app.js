@@ -27,3 +27,11 @@ closeModal.addEventListener("click", function(){
     formModal.classList.add('hidden')
 
 })
+
+window.addEventListener('click', function(e){
+    if(e.target === formModal){
+        formModal.classList.add('hidden')
+    } else {
+        return false
+    }
+})
